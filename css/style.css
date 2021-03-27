@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #000;
+}
+
+.header {
+    display: flex;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color:aqua;
+
+    margin: 15px auto;
+
+    transition: 0.4s ease;
+}
+
+.header-text:hover {
+    color:brown;
+    transform: scale(1.05);
+}
+
+.shit {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shit-2 {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.an {
+    border-radius: 50%;
+}
+
+.sex {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color:aqua;
+
+    margin: 70px auto;
+
+    transition: 0.4s ease;
+}
+
+.sex:hover {
+    color:brown;
+    transform: scale(1.05);
+}
